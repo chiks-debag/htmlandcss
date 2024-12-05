@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        margin: 0;
+        padding: 0 ;
+        
+        
+    }
+    .header
+    {
+        border: 1px solid black;
+        height: 50px;
+        
+        
+    }
+    .left
+    {
+        border: 1px solid red;
+        height: 100%;
+        width: 20%;
+        background-image: url("/image/logo.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+                
+    
+    }
+    .right
+    {
+        border: 1px solid green;
+        height: 100%;
+        width: 80%;
+    }
+    .box
+    {
+        border: 1px solid black;
+        height: 700px;
+        position: relative;
+        background-color: black;
+        
+    
+    }
+    .video
+    {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        min-height: 100%;
+        min-width: 100%;
+        width: 100%;
+        
+        
+
+    }
+    h1
+    {
+        position: absolute;
+        top: 200PX;
+        left: 100px;
+        color: white;
+
+    }
+
+
+</style>
+<body>
+   
+    <div class="box">
+        <video autoplay  muted class="video">
+            <source src="/video/Mufasa_ The Lion King _ Hindi Trailer _ Shah Rukh Khan, Aryan Khan, AbRam Khan _ In Cinemas Dec 20 - Walt Disney Studios India (1080p, h264, youtube).mp4" type="video/mp4" >
+            
+        </video>
+        <h1>
+            demo of video 
+        </h1>
+    </div>
+</body>
+</html>

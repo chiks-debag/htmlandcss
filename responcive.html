@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  
+    *
+    {
+        text-align: center;
+        font-size: 37px;
+    }
+    .header
+    {
+        border: 1px solid black;
+        background-color: red;
+    }
+    .main
+    {
+        border: 1px solid black;
+        height: 500px;
+
+    }
+    .left,.right
+    {
+        -border: 1px solid red;
+        height: 100%;
+        width: 50%;
+        float: left;
+        background-color: green;
+    }
+    .right
+    {
+        background-color: red;
+    }
+    .footer
+    {
+        border: 1px solid black;
+    }
+
+
+    @media(max-width:300px)
+    {
+        .header
+        {
+            background-color:blue;
+        }
+    }
+
+</style>
+<body>
+    <div class="header">header</div>
+    <div class="main">
+        <div class="left">left</div>
+        <div class="right">right</div>
+    </div>
+    <div class="footer">footer</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .box
+    {
+        border: 1px solid black;
+        height: 80vh;
+        /* background: url(/video/trailer.mp4); */
+        position: relative;
+    }
+
+    video
+    {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-height: 100%;
+        min-width: 100%;
+        
+        
+    }
+
+    h1
+    {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        margin: 0;
+        color: white;
+    }
+</style>
+<body>
+    <div class="box">
+        <video  src="/video/trailer.mp4" autoplay>
+          
+
+        </video>
+        <h1>
+            Text
+        </h1>
+    </div>
+</body>
+</html>

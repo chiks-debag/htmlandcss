@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .box
+    {
+        -border: 1px solid black;
+        height: 700px;
+        background-color: yellow;
+    }
+    .header
+    {
+        -border: 1px solid black;
+        height: 50px;
+        display: flex;
+
+    }
+    .left
+    {
+        -border: 1px solid black;
+        height: 100%;
+        width: 20%;
+        background-color: red;
+    }
+    .right
+    {
+        -border: 1px solid black;
+        height: 100%;
+        width: 80%;
+        background-color: green;
+    }
+    @media(min-width:200px) and (max-width:400px)
+    {
+
+        
+      .box{
+        border: 1px solid black;
+        
+      }
+      .header{
+        height: 200px;
+      }
+      .left{
+        background-image: url("/image/logo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        background-position-x: -40px;
+        
+        
+      }
+      .right
+      {
+            background-color: white;
+      }
+      .main
+      {
+        -border: 1px solid black;
+        width: 50%;
+      }
+    }
+    @media(min-width:401px) and (max-width:700px)
+    {
+        .box
+        {
+            background-image: url("/image/logo.jpg");
+
+        }
+        .header
+        {
+            -border: 1px solid black;
+
+        }
+        .left
+        {
+           background-color: #31511E;  
+        }
+        .right
+        {
+            background-color: #B9E5E8;
+        }
+        .main
+        {
+            position: relative;
+            top: 200px;
+        }
+    }
+</style>
+<body>
+    <div class="box">
+        <div class="header">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+        <div class="main">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus doloribus deleniti eligendi accusamus suscipit assumenda, blanditiis molestiae. Molestias fugiat amet aliquid nam tempore commodi quos reprehenderit minima expedita dolor, aliquam aperiam nobis a? Error atque non odio quod, placeat dolores inventore ducimus enim! Fugiat earum laudantium voluptas, reprehenderit dolore maxime eligendi asperiores cum saepe sit laboriosam. Nesciunt, nihil. Ab dicta, eaque dolores reprehenderit aut eveniet quas ipsum rerum in autem quaerat asperiores natus quidem et vero, obcaecati quod harum praesentium maiores! Ullam debitis eum inventore. Libero deleniti fugiat dignissimos itaque nostrum asperiores labore, reprehenderit aperiam exercitationem, ad, iure quod nulla!</div>
+    </div>
+</body>
+</html>

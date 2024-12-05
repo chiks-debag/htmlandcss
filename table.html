@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,tr,th,td
+    {
+        border: 1px solid black;
+        border-collapse:collapse;
+        width: 50%;
+        margin: auto;
+    }
+    tr
+    {
+        /* background-color: red; */
+    }
+    
+    th
+    {
+        /* background-color: yellow; */
+    }
+    td
+    {
+        /* background-color: #257180; */
+    }
+    /* tr:nth-child(even)
+    {
+        background-color: silver;
+    } */
+    tr th:nth-child(even), 
+     tr td:nth-child(even) 
+    {
+        
+         background-color: grey;
+    }
+    
+
+
+</style>
+<body>
+    <table>
+        <tr>
+            <th>no</th>
+            <th>name</th>
+            <th>rollno</th>
+            <th>phoneno</th>
+       </tr>
+
+        <tr>
+            <td>1</td>
+            <td>a</td>
+            <td>101</td>
+            <td>9898898998</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>b</td>
+            <td>102</td>
+            <td>989856258</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>c</td>
+            <td>103</td>
+            <td>989965823</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>d</td>
+            <td>104</td>
+            <td>984563524</td>
+        </tr>
+    </table>
+</body>
+</html>
